@@ -1,15 +1,15 @@
 ---
 application:
-  name: "djpg"
-  project: "raeson"
+  name: "patchface"
+  project: "aqoaif"
   organization: "QoveryCommunity"
 databases:
 - type: "POSTGRESQL"
-  name: "djpg"
+  name: "patchdb"
   version: "11"
 routers:
-- name: "main-djpg"
+- name: "main-patchface"
   routes:
-  - application_name: "djpg"
+  - application_name: "patchface"
     paths:
     - "/*"
